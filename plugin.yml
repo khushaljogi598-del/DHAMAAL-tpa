@@ -1,0 +1,17 @@
+name: DhamaalTPA
+version: 1.0.0
+main: org.dhamaal.tpaforms.DhamaalTpa
+api-version: "1.20"
+depend: [floodgate]
+softdepend: [Essentials]
+description: Click-based TPA and online player list forms for Bedrock players
+commands:
+  tpamenu:
+    description: Open the TPA online player list
+    permission: dhamaal.tpamenu
+  playersmenu:
+    description: Show the online players list
+    permission: dhamaal.tpamenu
+permissions:
+  dhamaal.tpamenu:
+    default: true
